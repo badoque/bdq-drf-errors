@@ -1,0 +1,71 @@
+{
+  "name": "bdq-drf-errors",
+  "description": "Set of components to print Django Rest Frameworks errors in a pretty template",
+  "author": "Badoque",
+  "homepage": "http://badoque.com/",
+  "private": false,
+  "main": "dist/js/main.js",
+  "typings": "dist/typings/main.d.ts",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server -c bs-config.json"
+  },
+  "files": [
+    "dist/bdq-drf-errors*",
+    "dist/js/",
+    "dist/bundles/",
+    "dist/aot/",
+    "dist/typings/"
+  ],
+  "peerDependencies": {
+    "@angular/core": "^2.0.0"
+  },
+  "devDependencies": {
+    "@angular/common": "^2.0.0",
+    "@angular/compiler": "^2.0.0",
+    "@angular/compiler-cli": "^2.0.0",
+    "@angular/core": "^2.0.0",
+    "@angular/forms": "^2.0.0",
+    "@angular/platform-browser": "^2.0.0",
+    "@angular/platform-browser-dynamic": "^2.0.0",
+    "@types/core-js": "^0.9.35",
+    "@types/jasmine": "^2.5.38",
+    "@types/node": "0.0.2",
+    "bower": "^1.7.9",
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-symlink": "^2.1.4",
+    "gulp-typescript": "^3.1.3",
+    "gulp-uglify": "^1.5.3",
+    "jasmine": "^2.4.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-coverage": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "lite-server": "^2.2.2",
+    "merge2": "^1.0.2",
+    "phantomjs-prebuilt": "^2.1.7",
+    "reflect-metadata": "0.1.3",
+    "rollup": "^0.41.4",
+    "rollup-plugin-angular": "^0.4.4",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-typescript": "^0.8.1",
+    "rollup-stream": "^1.19.0",
+    "run-sequence": "^1.2.1",
+    "rxjs": "5.0.0-beta.12",
+    "systemjs": "^0.19.29",
+    "typescript": "^2.0.10",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "zone.js": "^0.6.21"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.50",
+    "lodash": "^4.17.4",
+    "underscore": "^1.8.3"
+  }
+}
