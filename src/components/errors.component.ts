@@ -1,6 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
 
-import * as _ from "underscore";
 
 @Component({
   selector: 'bdq-errors',
@@ -30,8 +29,15 @@ export class BdqDRFErrorsComponent implements OnInit {
     return Object.keys(dct) || [];
   }
 
+  omit(obj, propertyName){
+    let copy = JSON.parse(JSON.stringify(obj));
+
+    delete copy[propertyName];
+    return copy;
+  }
+
   ngOnInit(){
-    this.commonErrors = _.omit(this.errors, this.nonFieldErrorsKey);
+    this.commonErrors = this.omit(this.errors, this.nonFieldErrorsKey);
     this.nonFieldErrors = this.errors[this.nonFieldErrorsKey] || [];
   }
 }

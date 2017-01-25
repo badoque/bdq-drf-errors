@@ -1,4 +1,3 @@
-/// <reference path="../typings/index.d.ts" />
 export * from './bdq-drf-errors.module';
 export * from './components/error-content';
 export * from './components/error-item';
