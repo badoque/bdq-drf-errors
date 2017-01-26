@@ -19,7 +19,7 @@
     "node_modules"
   ],
   "files": [
-    "./src/main.ts"
+    "./src/index.ts"
   ],
   "angularCompilerOptions": {
     "genDir": "build/factories"
