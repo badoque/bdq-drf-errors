@@ -25,6 +25,7 @@
     "errors",
     "angular2"
   ],
+  "main": "index.js",
   "peerDependencies": {
     "@angular/core": "^2.0.0"
   },
@@ -62,5 +63,8 @@
   },
   "dependencies": {
     "typescript": "^2.0.10"
+  },
+  "scripts": {
+    "tsc": "ngc -p ."
   }
 }

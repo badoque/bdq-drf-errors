@@ -1,24 +1,19 @@
 {
+    "version": "2.0.3",
     "compilerOptions": {
-        "noImplicitAny": false,
+        "outDir": "build/es5",
+        "target": "es5",
+        "lib": ["es6", "dom"],
         "module": "commonjs",
-        "target": "ES5",
+        "moduleResolution": "node",
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "sourceMap": true,
-        "declaration": true,
-        "lib": [
-            "dom",
-            "es2015.collection",
-            "es2015.promise",
-            "es5"
-        ],
-        "moduleResolution":"node"
+        "noImplicitAny": true,
+        "declaration": true
     },
-    "include": [
-        "src/**/*.ts"
-    ],
     "exclude": [
+        "build",
         "node_modules"
     ]
 }
