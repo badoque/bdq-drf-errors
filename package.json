@@ -1,6 +1,6 @@
 {
   "name": "bdq-drf-errors",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Set of components to print Django Rest Frameworks errors in a pretty template",
   "author": {
     "name": "Badoque",
