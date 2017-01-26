@@ -1,1 +1,1 @@
-export BdqErrors from './bdq-drf-errors.module';
+export BdqDRFErrors from './bdq-drf-errors.module';

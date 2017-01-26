@@ -32,4 +32,4 @@ import { BdqDRFErrorObjectContentComponent } from './components/error-content-ty
     BdqDRFErrorObjectContentComponent
   ]
 })
-export class BdqErrors { }
+export class BdqDRFErrors { }
